@@ -1,0 +1,65 @@
+#main-cont{
+    width: 70%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img{
+    width: 150px;
+    padding-top: 50px;
+}
+#posts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#post1, #post2, #post3{
+    width: 20%;
+    height: 400px;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 10px;
+}
+i{
+    font-size: 45px;
+    
+    padding: 5px;
+   
+    margin: 10px;
+    color:black;
+    cursor: pointer;
+}
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+button:active {
+    background-color: #004080; /* Even darker blue when the button is clicked */
+    transform: scale(1); /* Resets the size */
+}
+
+button:focus {
+    outline: none; /* Removes the default outline when focused */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Adds a shadow effect when focused */
+}
+
